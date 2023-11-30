@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+
+img {
+    padding: 17px 0;
+}
+
+p {
+    color: #969696;
+}
+
+span {
+    color: #4b4b4b;
+}
+
+.container {
+    background: #ffffff;
+}
+
+.header {
+    height: 100px;
+}
+
+._main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.header ._avatar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.header ._avatar ._info {
+    text-align: end;
+}
+
+.header ._avatar ._info p {
+    font-style: italic;
+}
+
+.main_title {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    height: 251px;
+    background: #29b363;
+    box-shadow: 0px 5px 3px #25a059 inset;
+    text-align: center;
+}
+
+.main_title p {
+    color: #ffffff;
+    font-size: 15px;
+    align-self: start;
+
+}
+
+.main_title p._title {
+    align-self: end;
+    font-size: 30px;
+    margin-bottom: 29px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.main_content {
+    background: #fcfcfc;
+    border: 1px solid #cccccc;
+}
+
+._content {
+    height: 461px;
+    width: 1104px;
+    text-align: center;
+}
+
+._content ._text {
+    position: relative;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: start;
+    height: 190px;
+    color: #828282;
+    padding: 70px 42px 0px;
+}
+
+._content ._text::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    text-align: center;
+    background: #ececec;
+    width: 80%;
+    height: 1px;
+}
+
+._content ._button {
+    margin-top: 52px;
+}
+
+.btn {
+    padding: 17px 83px;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow: 0px -1px 3px #202121 inset;
+}
+
+.btn-primary {
+    background: #2c7edb;
+}
+
+.btn-success {
+    background: #29b363;
+    margin-left: 31px;
+}
+
+.footer {
+    height: 184px;
+    font-size: 16px;
+}
+
+.footer p {
+    font-size: 15px;
+    line-height: 23px;
+    margin: 41px 0px 26px;
+    white-space: pre-wrap;
+}
